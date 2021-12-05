@@ -1,0 +1,42 @@
+<style>
+  body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+  }
+
+  a {
+	  color: #98b5e3;
+    text-decoration: none;
+  }
+  a:hover {
+	  color: #607596;
+  }
+
+  .title {
+    line-height: 0.2;
+  }
+</style>
+<html><body bgcolor='#242424' style="color:#ffffff;">
+  
+  <title>MyURL</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  <meta name="description" content="MyURl에서 모든 URL을 단축해보세요!">
+
+  <form method="post">
+    <div id='myurl'>
+      <div class="title"><h1>간편한 URL 단축기</h1>
+      <p><a href="https://myurl.kro.kr" class="link">MyURL.kro.kr</a></p></div><hr>
+      <label>
+        단축할 URL:
+        <input
+          type="url"
+          name="url"
+          placeholder="http://example.com/"
+          size="25"
+          required
+        />
+      </label>
+    <input type="submit" value="단축" />
+    </div>
+  </form>
+</body></html>
